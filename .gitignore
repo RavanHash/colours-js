@@ -33,6 +33,7 @@ trash
 public
 
 # Editor
+.idea
 .vscode
 .vscode-test
 *.sublime-project
