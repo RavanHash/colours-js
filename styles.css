@@ -32,6 +32,11 @@ body {
   cursor: pointer;
 }
 
+.col h4:active {
+  transform: translateY(3px);
+  background: rgba(0, 0, 0, 0.39);
+}
+
 .col button {
   outline: none;
   border: none;
@@ -46,4 +51,9 @@ body {
 .col button:hover {
   background: rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.col button:active {
+  transform: translateY(3px);
+  background: rgba(0, 0, 0, 0.39);
 }
